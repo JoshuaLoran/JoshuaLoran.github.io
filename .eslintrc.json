@@ -1,0 +1,177 @@
+{
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "commonjs": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-unused-vars": "off",
+    "indent": [
+      "warn",
+      2
+    ],
+    "linebreak-style": [
+      "warn",
+      "unix"
+    ],
+    "quotes": [
+      "warn",
+      "double"
+    ],
+    "semi": [
+      "warn",
+      "always"
+    ],
+    "complexity": [
+      "warn",
+      30
+    ],
+    "eqeqeq": [
+      "warn",
+      "always"
+    ],
+    "no-eval": "warn",
+    "no-alert": "warn",
+    "no-return-await": "warn",
+    "no-implied-eval": "warn",
+    "no-trailing-spaces": "warn",
+    "no-var": "warn",
+    "keyword-spacing": "warn",
+    "key-spacing": "warn",
+    "no-self-compare": "warn",
+    "no-unmodified-loop-condition": "warn",
+    "no-useless-concat": "warn",
+    "no-label-var": "warn",
+    "no-use-before-define": "warn",
+    "no-implicit-coercion": "warn",
+    "global-require": "warn",
+    "spaced-comment": [
+      "warn",
+      "always",
+      {
+        "exceptions": [
+          "/"
+        ]
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
+    ],
+    "array-element-newline": [
+      "warn",
+      "consistent"
+    ],
+    "arrow-spacing": "warn",
+    "array-bracket-spacing": "warn",
+    "space-in-parens": "warn",
+    "object-curly-spacing": "warn",
+    "space-before-blocks": "warn",
+    "computed-property-spacing": "warn",
+    "array-callback-return": "warn",
+    "block-spacing": [
+      "warn",
+      "always"
+    ],
+    "padded-blocks": [
+      "warn",
+      "never"
+    ],
+    "comma-spacing": [
+      "warn",
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "eol-last": [
+      "warn",
+      "always"
+    ],
+    "func-call-spacing": [
+      "warn",
+      "never"
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 150,
+        "ignoreComments": true
+      }
+    ],
+    "max-params": ["warn", 6],
+    "no-unneeded-ternary": "warn",
+    "no-useless-constructor": "warn",
+    "no-useless-computed-key": "warn",
+    "semi-style": [
+      "warn",
+      "last"
+    ],
+    "react/jsx-equals-spacing": "warn",
+    "react/jsx-curly-spacing": "warn",
+    "space-infix-ops": "warn",
+    "no-multi-spaces": "warn",
+    "react/jsx-child-element-spacing": "warn",
+    "react/jsx-tag-spacing": [
+      "warn",
+      {
+        "closingSlash": "never",
+        "beforeSelfClosing": "allow",
+        "afterOpening": "never",
+        "beforeClosing": "never"
+      }
+    ],
+    "react/display-name": "off",
+    "react/prop-types": [
+      "off",
+      {
+        "skipUndeclared": true
+      }
+    ],
+    "react/no-string-refs": "off"
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/store/**/reducers.js"
+      ],
+      "rules": {
+        "no-case-declarations": "off"
+      }
+    },
+    {
+      "files": [
+        "src/utils/*.js"
+      ]
+    }
+  ]
+}
