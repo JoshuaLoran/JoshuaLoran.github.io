@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {Layout} from "antd";
-import {SideBar} from "../components/SideBar";
+import {SideBar} from "../components/layout/SideBar";
 import {Routes} from "./Routes";
 import {desktopHeader, mobileHeader} from "../utils/utils";
 

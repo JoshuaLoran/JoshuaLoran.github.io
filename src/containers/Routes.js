@@ -1,11 +1,12 @@
 import React from "react";
 import {Switch, Route} from "react-router-dom";
+import {HomeDash} from "../components/pages/home/HomeDash";
 
 const Routes = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <div>HOME</div>
+        <HomeDash />
       </Route>
       <Route path="/conmitto">
         <div>CONMITTO</div>

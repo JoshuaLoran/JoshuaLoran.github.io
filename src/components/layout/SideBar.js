@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Layout, Avatar} from "antd";
-import ProfilePic from "../images/ProfilePic.jpeg";
+import ProfilePic from "../../images/ProfilePic.jpeg";
 import {SideMenu} from "./SideMenu";
 import {motion} from "framer-motion";
 
