@@ -33,7 +33,7 @@ const Routes = () => {
         <div>RESUME</div>
       </Route>
       <Route path="/about">
-        <div>ABOUT</div>
+        <HomeDash />
       </Route>
     </Switch>
   );
