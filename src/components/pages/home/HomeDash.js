@@ -1,7 +1,7 @@
 import React from "react";
-import {PageHeader, Affix} from "antd";
+import {Affix} from "antd";
 import {homepageProps} from "../../../stories/data";
-import {Flex, Divider, Box, Text, Image} from "@chakra-ui/core";
+import {Flex, Divider, Box, Text} from "@chakra-ui/core";
 
 const HomeDash = (props) => {
   const {pageTitle, firstBlurb} = homepageProps;
