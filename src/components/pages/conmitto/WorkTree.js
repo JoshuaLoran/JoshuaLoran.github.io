@@ -57,8 +57,9 @@ const whatIDid = [
 const WorkTree = () => {
   return (
     <Tree
+      defaultExpandAll={true}
       treeData={whatIDid}
-      titleRender={(nodeData) => (<Text>{nodeData.title}</Text>)}
+      titleRender={(nodeData) => (<Text fontSize="32px">{nodeData.title}</Text>)}
     />
   );
 };
