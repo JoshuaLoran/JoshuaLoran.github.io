@@ -12,7 +12,7 @@ const SylvanPage = () => {
       {/* eslint-disable-next-line react/no-unescaped-entities */}
       <Text fontSize={["14px", "20px", "26px", "30px"]}>"{sylvanBlurb}"</Text>
       <Flex justify="space-evenly" wrap="wrap">
-        <Image border="double" mt={[15, 20, 35, 80]}  size={["100%", "100%", "100%", "40%"]} src={SylvanScreen}/>
+        <Image border="double" mt={[15, 20, 35, 80]} size={["100%", "100%", "100%", "40%"]} src={SylvanScreen}/>
         <WorkTree {...workTreeData}/>
       </Flex>
     </Flex>

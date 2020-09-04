@@ -1,22 +1,25 @@
 import React from "react";
-import {Affix} from "antd";
 import {homepageProps} from "../../../stories/data";
 import {Flex, Divider, Box, Text} from "@chakra-ui/core";
+import {IconList} from "../../layout/Icons/IconList";
+import {sylvanIcons, conmittoIcons, homeControlIcons, socialWildernessIcons} from "../../layout/Icons/constants";
 
 const HomeDash = () => {
   const {pageTitle, firstBlurb} = homepageProps;
 
   return (
-    <Flex direction="column">
-      <Affix>
-        <Flex bg="#ffffff" align="center" justify="space-around">
-          <Text>{pageTitle}</Text>
-        </Flex>
-        <Divider w="100%" />
-      </Affix>
-      <Box mt="20px" h={1000}>
+    <Flex direction="column" alignItems="center">
+      <Flex bg="#ffffff" align="center" justify="space-around">
+        <Text>{pageTitle}</Text>
+      </Flex>
+      <Divider w="100%" />
+      <Box mt="20px">
         <Text>{firstBlurb}</Text>
       </Box>
+      <IconList icons={sylvanIcons}/>
+      <IconList icons={conmittoIcons}/>
+      <IconList icons={homeControlIcons}/>
+      <IconList icons={socialWildernessIcons}/>
     </Flex>
   );
 };
