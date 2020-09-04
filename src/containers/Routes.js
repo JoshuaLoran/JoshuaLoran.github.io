@@ -2,6 +2,7 @@ import React from "react";
 import {Switch, Route} from "react-router-dom";
 import {HomeDash} from "../components/pages/home/HomeDash";
 import {ConmittoPage} from "../components/pages/conmitto/Conmitto";
+import {SylvanPage} from "../components/pages/sylvan/Sylvan";
 
 const Routes = () => {
   return (
@@ -13,7 +14,7 @@ const Routes = () => {
         <ConmittoPage/>
       </Route>
       <Route path="/SYLVAN">
-        <div>SYLVAN</div>
+        <SylvanPage/>
       </Route>
       <Route path="/farmfrenzy">
         <div>FARM FRENZY</div>
