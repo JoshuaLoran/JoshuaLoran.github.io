@@ -1,5 +1,5 @@
 import React from "react";
-import {Text, Image, Box, Flex} from "@chakra-ui/core";
+import {Text, Image, Flex} from "@chakra-ui/core";
 import {sylvanBlurb, workTreeData} from "./constants";
 import Sylvan from "../../../images/Sylvan.png";
 import SylvanScreen from "../../../images/SylvanScreen.png";

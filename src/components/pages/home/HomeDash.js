@@ -3,7 +3,7 @@ import {Affix} from "antd";
 import {homepageProps} from "../../../stories/data";
 import {Flex, Divider, Box, Text} from "@chakra-ui/core";
 
-const HomeDash = (props) => {
+const HomeDash = () => {
   const {pageTitle, firstBlurb} = homepageProps;
 
   return (
@@ -14,7 +14,9 @@ const HomeDash = (props) => {
         </Flex>
         <Divider w="100%" />
       </Affix>
-      <Box mt="20px" h={1000}><Text>{firstBlurb}</Text></Box>
+      <Box mt="20px" h={1000}>
+        <Text>{firstBlurb}</Text>
+      </Box>
     </Flex>
   );
 };

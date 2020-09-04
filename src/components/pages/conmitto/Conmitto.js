@@ -1,5 +1,5 @@
 import React from "react";
-import {Text, Image, Box, Flex} from "@chakra-ui/core";
+import {Text, Image, Flex} from "@chakra-ui/core";
 import {WorkTree} from "../../layout/WorkTree";
 import {QuoteBox} from "./QuoteBox";
 import {quotes, workTreeData} from "./constants";
