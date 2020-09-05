@@ -3,12 +3,15 @@ import {Text, Image, Flex} from "@chakra-ui/core";
 import {WorkTree} from "../../layout/WorkTree";
 import {QuoteBox} from "./QuoteBox";
 import {quotes, workTreeData} from "./constants";
-import conmottpLogo from "../../../images/conmottpLogo.png";
-import ScreenOne from "../../../images/ConmitScreen.png";
+import conmottpLogo from "../../../images/conmitto/conmottpLogo.png";
+import ScreenOne from "../../../images/conmitto/ConmitScreen.png";
+import {IconList} from "../../layout/Icons/IconList";
+import {conmittoIcons} from "./constants";
 
 const ConmittoPage = () => {
   return (
     <Flex direction="column" alignItems="center">
+      <IconList icons={conmittoIcons}/>
       <Image mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["50%", "45%", "40%", "30%"]} src={conmottpLogo}/>
       <Text fontSize={["16px", "24px", "30px", "34px"]}>Conmitto - Maintenance, Repair and Operations (MRO)</Text>
       <Flex w="80%" ml={["2%", "10%", "20%%", "20%"]} mr={["2%", "10%", "20%", "20%"]} wrap="wrap" justify="space-between">

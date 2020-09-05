@@ -25,10 +25,6 @@ const SideMenu = ({handleMenuClick}) => {
         </Menu.Item>
       </SubMenu>
       <SubMenu key="schoolProjects" icon={<SnippetsOutlined />} title="School/Fun Projects">
-        <Menu.Item key="farmFrenzy">
-          Farm Frenzy
-          <Link to="/farmfrenzy"/>
-        </Menu.Item>
         <Menu.Item key="homeControl">
           Home Control
           <Link to="/homecontrol"/>
@@ -36,6 +32,10 @@ const SideMenu = ({handleMenuClick}) => {
         <Menu.Item key="SocWild">
           Social Wilderness
           <Link to="/socialwilderness"/>
+        </Menu.Item>
+        <Menu.Item key="farmFrenzy">
+          Farm Frenzy
+          <Link to="/farmfrenzy"/>
         </Menu.Item>
       </SubMenu>
       <SubMenu key="tech" icon={<PieChartOutlined />} title="Technology">

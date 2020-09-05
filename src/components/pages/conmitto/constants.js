@@ -1,3 +1,20 @@
+import intellijIdea from "@iconify/icons-logos/intellij-idea";
+import reactIcon from "@iconify/icons-logos/react";
+import reduxIcon from "@iconify/icons-logos/redux";
+import storybookIcon from "@iconify/icons-logos/storybook-icon";
+import html5 from "@iconify/icons-logos/html-5";
+import css3 from "@iconify/icons-logos/css-3";
+import pythonIcon from "@iconify/icons-logos/python";
+import djangoIcon from "@iconify/icons-logos/django";
+import websocketIcon from "@iconify/icons-logos/websocket";
+import postgresqlIcon from "@iconify/icons-logos/postgresql";
+import dockerIcon from "@iconify/icons-logos/docker-icon";
+import cypressIcon from "@iconify/icons-logos/cypress";
+import githubIcon from "@iconify/icons-logos/github-icon";
+import gitlabIcon from "@iconify/icons-logos/gitlab";
+import trelloIcon from "@iconify/icons-logos/trello";
+import yarnIcon from "@iconify/icons-logos/yarn";
+
 const bridgeQuote = "We help bridge the digital and physical industrial worlds.";
 
 const userCentricQuote = "Conmitto designs user-centric systems for your organization’s biggest asset and operational challenges.";
@@ -35,3 +52,70 @@ export const workTreeData = {
   ],
   linkUrl: "https://conmitto.io"
 };
+
+export const conmittoIcons = [
+  {
+    icon: intellijIdea,
+    link: "https://www.jetbrains.com/"
+  },
+  {
+    icon: reactIcon,
+    link: "https://reactjs.org/"
+  },
+  {
+    icon: reduxIcon,
+    link: "https://redux.js.org/"
+  },
+  {
+    icon: storybookIcon,
+    link: "https://storybook.js.org/"
+  },
+  {
+    icon: html5,
+    link: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+  },
+  {
+    icon: css3,
+    link: "https://developer.mozilla.org/en-US/docs/Archive/CSS3"
+  },
+  {
+    icon: pythonIcon,
+    link: "https://www.python.org/"
+  },
+  {
+    icon: djangoIcon,
+    link: "https://www.djangoproject.com/"
+  },
+  {
+    icon: websocketIcon,
+    link: "https://channels.readthedocs.io/en/latest/"
+  },
+  {
+    icon: postgresqlIcon,
+    link: "https://www.postgresql.org/"
+  },
+  {
+    icon: dockerIcon,
+    link: "https://www.docker.com/"
+  },
+  {
+    icon: cypressIcon,
+    link: "https://www.cypress.io/"
+  },
+  {
+    icon: githubIcon,
+    link: "https://github.com/JoshuaLoran"
+  },
+  {
+    icon: gitlabIcon,
+    link: "https://gitlab.com/JoshuaLoran"
+  },
+  {
+    icon: trelloIcon,
+    link: "https://trello.com/"
+  },
+  {
+    icon: yarnIcon,
+    link: "https://classic.yarnpkg.com/en/"
+  }
+];

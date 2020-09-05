@@ -3,6 +3,12 @@ import {Switch, Route} from "react-router-dom";
 import {HomeDash} from "../components/pages/home/HomeDash";
 import {ConmittoPage} from "../components/pages/conmitto/Conmitto";
 import {SylvanPage} from "../components/pages/sylvan/Sylvan";
+import {HomeControl} from "../components/pages/homecontrol/HomeControl";
+import {SocialWilderness} from "../components/pages/socialwilderness/SocialWilderness";
+import {FarmFrenzy} from "../components/pages/farmfrenzy/FarmFrenzy";
+import {Frontend} from "../components/pages/frontend/Frontend";
+import {Backend} from "../components/pages/backend/Backend";
+import {Resume} from "../components/pages/resume/Resume";
 
 const Routes = () => {
   return (
@@ -17,22 +23,22 @@ const Routes = () => {
         <SylvanPage/>
       </Route>
       <Route path="/farmfrenzy">
-        <div>FARM FRENZY</div>
+        <FarmFrenzy/>
       </Route>
       <Route path="/homecontrol">
-        <div>HOME CONTROL</div>
+        <HomeControl/>
       </Route>
       <Route path="/socialwilderness">
-        <div>SOCIAL WILDERNESS</div>
+        <SocialWilderness/>
       </Route>
       <Route path="/frontend">
-        <div>FRONTEND</div>
+        <Frontend/>
       </Route>
       <Route path="/backend">
-        <div>BACKEND</div>
+        <Backend/>
       </Route>
       <Route path="/resume">
-        <div>RESUME</div>
+        <Resume/>
       </Route>
       <Route path="/about">
         <HomeDash />
