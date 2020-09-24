@@ -8,6 +8,7 @@ import raspberryPi from "@iconify/icons-logos/raspberry-pi";
 import websocketIcon from "@iconify/icons-logos/websocket";
 import npmIcon from "@iconify/icons-logos/npm";
 import semanticUi from '@iconify/icons-logos/semantic-ui';
+import herokuIcon from "@iconify/icons-logos/heroku-icon";
 
 
 export const workTreeData = {
@@ -67,5 +68,9 @@ export const homeControlIcons = [
   {
     icon: npmIcon,
     link: "https://www.npmjs.com/"
+  },
+  {
+    icon: herokuIcon,
+    link: "https://www.heroku.com/"
   }
 ];

@@ -11,7 +11,6 @@ import {workTreeData} from "./constants"
 const HomeControl = () => {
   return (
     <Flex direction="column" alignItems="center">
-      <IconList icons={homeControlIcons}/>
       <Text textDecoration="underline" fontSize={["24px", "32px", "48px", "64px"]}>Home Control System</Text>
       <Text fontSize={["14px", "18px", "20px", "28px"]}>Making devices with things like Arduino and RaspberryPi was my
         first dive into programming and development. While it was simple enough to put together devices/hacks, connecting
@@ -19,12 +18,12 @@ const HomeControl = () => {
         and makers connect their devices without needing knowledge of anything internet related. I was given special
         recognition for this project for both building example devices and using several technologies we were not taught.</Text>
       <Flex wrap="wrap" direction="row" justifyContent="space-evenly">
-        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["50%", "45%", "40%", "40%"]} src={homeControlHomeScreen}/>
-        <WorkTree {...workTreeData}/>
+        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["100%", "100%", "100%", "40%"]} src={homeControlHomeScreen}/>
+        <WorkTree iconList={<IconList icons={homeControlIcons}/>} {...workTreeData}/>
       </Flex>
       <Flex wrap="wrap" direction="row" justifyContent="space-evenly">
-        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["50%", "45%", "40%", "30%"]} src={homeControlScreen}/>
-        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["50%", "45%", "40%", "30%"]} src={homeControlConnectScreen}/>
+        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["100%", "100%", "100%", "40%"]} src={homeControlScreen}/>
+        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["100%", "100%", "100%", "40%"]} src={homeControlConnectScreen}/>
       </Flex>
     </Flex>
   );

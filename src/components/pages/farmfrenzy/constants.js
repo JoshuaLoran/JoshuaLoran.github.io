@@ -3,10 +3,11 @@ import railsIcon from "@iconify/icons-logos/rails";
 import javascriptIcon from "@iconify/icons-logos/javascript";
 import html5 from "@iconify/icons-logos/html-5";
 import css3 from "@iconify/icons-logos/css-3";
-import bootstrapIcon from "@iconify/icons-logos/bootstrap";
+import websocketIcon from "@iconify/icons-logos/websocket";
 import herokuIcon from "@iconify/icons-logos/heroku-icon";
 
-export const socialWildernessIcons = [
+
+export const farmFrenzyIcons = [
   {
     icon: rubyIcon,
     link: "https://www.ruby-lang.org/en/"
@@ -28,8 +29,8 @@ export const socialWildernessIcons = [
     link: "https://developer.mozilla.org/en-US/docs/Archive/CSS3"
   },
   {
-    icon: bootstrapIcon,
-    link: "https://getbootstrap.com/"
+    icon: websocketIcon,
+    link: "https://guides.rubyonrails.org/action_cable_overview.html"
   },
   {
     icon: herokuIcon,
@@ -41,13 +42,15 @@ export const workTreeData = {
   topHeading: "Highlights",
   topList: [
     "Built Ruby on Rails API enabling users to securely create and log into an account",
-    "Social site where users can follow each others adventures",
-    "Search for destinations and plan trips.  Review and rate your trips to share with friends",
+    "Websockets using Actioncable for real time fun",
+    "Designed graphic interface with personalized icon markers",
+    "Constructed game logic"
   ],
   secondHeading: "Fun Parts",
   secondList: [
-    "Added nature sounds to the website (pretty awful in hindsight)",
-    "Planning out the database structure with the various relationships was a great learning experience",
-  ],
-  linkUrl: "https://boiling-fjord-61842.herokuapp.com/"
-}
+    "Diving into websockets even though they weren't taught to us",
+    "Coming up with the farm theme and designing the graphic interface",
+    "Watching people in my class play after it was finished"
+  ]
+};
+

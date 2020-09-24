@@ -37,11 +37,16 @@ export const workTreeData = {
   topList: [
     "Assisted with much of the frontend design and implementation",
     "Built and/or modified models, views, serializers, and various features in a Django/Postgres API",
-    "Worked within Redux, including RSAA",
-    "Designed an internal responsive and composable library, including using HOC wrappers to encapsulate shared structure/logic",
-    "Designed, forms, item bars, and data tables for many models",
-    "Created self documenting code using tools like Proptypes, JSdocs, and Cypress testing.",
-    "Wrote a bulk deleting system for many models"
+    "Worked within React and Redux, including generated base stores with RSAA CRUD and other actions",
+    "Designed an internal responsive and composable library, including HOC wrappers to encapsulate shared structure/logic",
+    "Designed, reusable forms (and form components), item bars, and data tables for many models",
+    "Created self documenting code using tools like Proptypes, JSdocs, and Storybook.",
+    "Wrote a bulk deleting system for many models",
+    "Implemented full stack Beta option to give beta test approved users access to to beta features site wide.",
+    "Onboard and help new developers become familiar withe codebase.",
+    "Setup and maintain runner for Gitlab CI/CD",
+    "Write and maintain E2E testing with Cypress",
+    "Work and troubleshoot environment within Docker containerization."
   ],
   secondHeading: "Libraries / Tools",
   secondList: [
@@ -50,7 +55,7 @@ export const workTreeData = {
     "Cypress End-to-End testing",
     "Docker"
   ],
-  linkUrl: "https://conmitto.io"
+  linkUrl: "https://conmittomanager.com/#/"
 };
 
 export const conmittoIcons = [
