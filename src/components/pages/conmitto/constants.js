@@ -50,10 +50,17 @@ export const workTreeData = {
   ],
   secondHeading: "Libraries / Tools",
   secondList: [
-    "Python / Django / Postgres / Postgis",
-    "React / Redux / Storybook / Styled Components / SASS",
+    "Python",
+    "Django",
+    "Postgres / Postgis",
+    "React",
+    "Redux",
+    "Storybook",
+    "Styled Components",
+    "SASS",
     "Cypress End-to-End testing",
-    "Docker"
+    "Docker",
+    "IntelliJ"
   ],
   linkUrl: "https://conmittomanager.com/#/"
 };
@@ -106,10 +113,6 @@ export const conmittoIcons = [
   {
     icon: cypressIcon,
     link: "https://www.cypress.io/"
-  },
-  {
-    icon: githubIcon,
-    link: "https://github.com/JoshuaLoran"
   },
   {
     icon: gitlabIcon,

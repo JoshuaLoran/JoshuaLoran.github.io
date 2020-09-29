@@ -3,6 +3,7 @@ import {Layout, Avatar} from "antd";
 import ProfilePic from "../../images/ProfilePic.jpeg";
 import {SideMenu} from "./SideMenu";
 import {motion} from "framer-motion";
+import {ParticleBG} from "../particles/ParticleBG";
 
 const {Sider} = Layout;
 
@@ -29,6 +30,11 @@ const SideBar = () => {
         <Avatar style={{marginTop: "20%"}} size={50} src={ProfilePic}/>
       </motion.div>
       <SideMenu/>
+      <div style={{height: "100%", position: "relative"}}>
+        <div style={{height: "100%", position: 'absolute'}}>
+          <ParticleBG/>
+        </div>
+      </div>
     </Sider>
   );
 };
