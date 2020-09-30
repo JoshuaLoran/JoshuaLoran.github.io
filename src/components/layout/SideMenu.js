@@ -11,9 +11,9 @@ import {
 
 const {SubMenu} = Menu;
 
-const SideMenu = ({handleMenuClick}) => {
+const SideMenu = ({handleMenuClick, collapsed}) => {
   return (
-    <Menu onClick={handleMenuClick} theme="dark" mode="inline">
+    <Menu onClick={handleMenuClick} theme={!collapsed && "dark"} mode="inline">
       <SubMenu key="professionalProjects" icon={<TeamOutlined />} title="Professional Work">
         <Menu.Item key="conmitto">
           Conmitto
