@@ -40,10 +40,10 @@ export const workTreeData = {
     "Worked within React and Redux, including generated base stores with RSAA CRUD and other actions",
     "Designed an internal responsive and composable library, including HOC wrappers to encapsulate shared structure/logic",
     "Designed, reusable forms (and form components), item bars, and data tables for many models",
-    "Created self documenting code using tools like Proptypes, JSdocs, and Storybook.",
+    "Created self documenting code using tools like Proptypes, JSdocs, and Storybook with best practice naming conventions.",
     "Wrote a bulk deleting system for many models",
     "Implemented full stack Beta option to give beta test approved users access to to beta features site wide.",
-    "Onboard and help new developers become familiar withe codebase.",
+    "Onboard and help new developers become familiar with codebase.",
     "Setup and maintain runner for Gitlab CI/CD",
     "Write and maintain E2E testing with Cypress",
     "Work and troubleshoot environment within Docker containerization."
