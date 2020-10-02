@@ -1,6 +1,10 @@
 import React from "react";
-import {homepageProps} from "../../../stories/data";
 import {Flex, Divider, Box, Text} from "@chakra-ui/core";
+
+const homepageProps = {
+  pageTitle: "Home",
+  firstBlurb: "yadda yadda"
+};
 
 const HomeDash = () => {
   const {pageTitle, firstBlurb} = homepageProps;

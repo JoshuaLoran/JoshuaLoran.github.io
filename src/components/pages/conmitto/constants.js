@@ -46,7 +46,7 @@ export const workTreeData = {
     "Onboard and help new developers become familiar with codebase.",
     "Setup and maintain runner for Gitlab CI/CD",
     "Write and maintain E2E testing with Cypress",
-    "Work and troubleshoot environment within Docker containerization."
+    "Work and troubleshoot environment within Docker."
   ],
   secondHeading: "Libraries / Tools",
   secondList: [
