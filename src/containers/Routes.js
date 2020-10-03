@@ -13,7 +13,7 @@ import {Resume} from "../components/pages/resume/Resume";
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/Portfolio">
+      <Route exact path="/">
         <HomeDash/>
       </Route>
       <Route path="/conmitto">
