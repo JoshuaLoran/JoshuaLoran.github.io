@@ -16,6 +16,11 @@ const SideBar = () => {
   const [collapsed, setCollapsed] = useState(true);
   return (
     <Sider
+      style={{
+        height: "100vh",
+        position: "fixed",
+        left: 0,
+      }}
       trigger={null}
       collapsible
       collapsed={collapsed}

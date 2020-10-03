@@ -34,14 +34,17 @@ const Root = () => {
         setRoute={setRoute}/>
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{padding: 0}}>
-          <h1>{isMobile ? mobileHeader : desktopHeader}</h1>
+          <h1 style={{marginLeft: "80px"}}>{isMobile ? mobileHeader : desktopHeader}</h1>
         </Header>
         <Content
           className="site-layout-background"
           style={{
             margin: "24px 16px",
+            marginLeft: "100px",
+            marginRight: "20px",
             padding: 24,
             minHeight: 280,
+            left: 100
           }}>
           <Routes/>
         </Content>

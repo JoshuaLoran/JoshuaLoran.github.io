@@ -3,7 +3,7 @@ import {Box} from "@chakra-ui/core";
 
 const WorkTree = ({topHeading, secondHeading, topList, secondList, linkUrl, iconList}) => {
   return (
-    <Box textAlign="left" mt={[15, 20, 35, 80]}>
+    <Box textAlign="left" mt={[15, 20, 35, 80]} h="100%">
       <h2>{topHeading || ""}:</h2>
       {topList && topList.map((bullet, key) => (
         <p key={key}><li>{bullet}</li></p>
