@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.af264abf.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7bc7c1a8.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7bc7c1a8.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/css/2.04ff9426.chunk.css": "/Portfolio/static/css/2.04ff9426.chunk.css",
+    "static/js/2.52307994.chunk.js": "/Portfolio/static/js/2.52307994.chunk.js",
+    "static/js/2.52307994.chunk.js.map": "/Portfolio/static/js/2.52307994.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.a4287018c0c30dc93ea5a8cda83ac8ab.js": "/Portfolio/precache-manifest.a4287018c0c30dc93ea5a8cda83ac8ab.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/2.04ff9426.chunk.css.map": "/Portfolio/static/css/2.04ff9426.chunk.css.map",
+    "static/css/main.af264abf.chunk.css.map": "/Portfolio/static/css/main.af264abf.chunk.css.map",
+    "static/js/2.52307994.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.52307994.chunk.js.LICENSE.txt",
+    "static/media/ConmitScreen.png": "/Portfolio/static/media/ConmitScreen.e97f5a35.png",
+    "static/media/ProfilePic.jpeg": "/Portfolio/static/media/ProfilePic.0ee38c16.jpeg",
+    "static/media/conmittoLogo.png": "/Portfolio/static/media/conmittoLogo.3b593ed5.png",
+    "static/media/farmfrenzy.gif": "/Portfolio/static/media/farmfrenzy.778a580f.gif",
+    "static/media/homeControlConnectScreen.png": "/Portfolio/static/media/homeControlConnectScreen.af01ccda.png",
+    "static/media/homeControlHomeScreen.png": "/Portfolio/static/media/homeControlHomeScreen.8df849bb.png",
+    "static/media/homeControlScreen.png": "/Portfolio/static/media/homeControlScreen.d4c0dde3.png",
+    "static/media/socialWildernessDestinationScreen.png": "/Portfolio/static/media/socialWildernessDestinationScreen.26953762.png",
+    "static/media/socialWildernessLeoScreen.png": "/Portfolio/static/media/socialWildernessLeoScreen.696f2ee2.png",
+    "static/media/socialWildernessScreen.png": "/Portfolio/static/media/socialWildernessScreen.b846cb9d.png",
+    "static/media/sylvan.png": "/Portfolio/static/media/sylvan.46326b5a.png",
+    "static/media/sylvanScreen.png": "/Portfolio/static/media/sylvanScreen.0ed15415.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e440ee5a.js",
+    "static/css/2.04ff9426.chunk.css",
+    "static/js/2.52307994.chunk.js",
+    "static/css/main.af264abf.chunk.css",
+    "static/js/main.7bc7c1a8.chunk.js"
+  ]
+}
