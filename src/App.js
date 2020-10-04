@@ -7,7 +7,7 @@ import {Root} from "./containers/Layout";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename="/">
         <ScrollToTop />
         <Root/>
       </HashRouter>
