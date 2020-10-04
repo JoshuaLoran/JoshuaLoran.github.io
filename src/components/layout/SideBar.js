@@ -20,6 +20,7 @@ const SideBar = () => {
         height: "100vh",
         position: "fixed",
         left: 0,
+        zIndex: 1000
       }}
       trigger={null}
       collapsible

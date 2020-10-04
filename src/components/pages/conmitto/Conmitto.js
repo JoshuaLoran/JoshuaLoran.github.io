@@ -18,7 +18,7 @@ const ConmittoPage = () => {
           <QuoteBox key={key} quoteOne={quotes.quoteOne} quoteTwo={quotes.quoteTwo} quoteThree={quotes.quoteThree}/>
         ))}
       </Flex>
-      <Flex w="100%" h justify="space-evenly" wrap="wrap">
+      <Flex w="100%" justify="space-evenly" wrap="wrap">
         <Image mt={[15, 20, 35, 80]} size={["100%", "100%", "100%", "40%"]} src={ScreenOne}/>
         <WorkTree {...workTreeData} iconList={<IconList icons={conmittoIcons}/>}/>
       </Flex>

@@ -6,9 +6,8 @@ import {SylvanPage} from "../components/pages/sylvan/Sylvan";
 import {HomeControl} from "../components/pages/homecontrol/HomeControl";
 import {SocialWilderness} from "../components/pages/socialwilderness/SocialWilderness";
 import {FarmFrenzy} from "../components/pages/farmfrenzy/FarmFrenzy";
-import {Frontend} from "../components/pages/frontend/Frontend";
-import {Backend} from "../components/pages/backend/Backend";
 import {Resume} from "../components/pages/resume/Resume";
+import {HomeSetup} from "../components/pages/homesetup/HomeSetup";
 
 const Routes = () => {
   return (
@@ -31,11 +30,8 @@ const Routes = () => {
       <Route path="/socialwilderness">
         <SocialWilderness/>
       </Route>
-      <Route path="/frontend">
-        <Frontend/>
-      </Route>
-      <Route path="/backend">
-        <Backend/>
+      <Route path="/homesetup">
+        <HomeSetup/>
       </Route>
       <Route path="/resume">
         <Resume/>

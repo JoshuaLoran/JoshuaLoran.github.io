@@ -2,11 +2,11 @@ import React from "react";
 import {Menu} from "antd";
 import {Link} from "react-router-dom";
 import {
-  PieChartOutlined,
-  FileOutlined,
+  LaptopOutlined,
+  ContainerOutlined,
   TeamOutlined,
   UserOutlined,
-  SnippetsOutlined
+  ReadOutlined
 } from "@ant-design/icons";
 
 const {SubMenu} = Menu;
@@ -14,6 +14,10 @@ const {SubMenu} = Menu;
 const SideMenu = ({handleMenuClick, collapsed}) => {
   return (
     <Menu onClick={handleMenuClick} theme={!collapsed && "dark"} mode="inline" selectable={false}>
+      <Menu.Item key="about" icon={<UserOutlined />}>
+        About Me
+        <Link to="/about"/>
+      </Menu.Item>
       <SubMenu key="professionalProjects" icon={<TeamOutlined />} title="Professional Work">
         <Menu.Item key="conmitto">
           Conmitto
@@ -24,7 +28,7 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
           <Link to="/sylvan"/>
         </Menu.Item>
       </SubMenu>
-      <SubMenu key="schoolProjects" icon={<SnippetsOutlined />} title="School/Fun Projects">
+      <SubMenu key="schoolProjects" icon={<ReadOutlined />} title="School/Fun Projects">
         <Menu.Item key="homeControl">
           Home Control
           <Link to="/homecontrol"/>
@@ -38,23 +42,13 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
           <Link to="/farmfrenzy"/>
         </Menu.Item>
       </SubMenu>
-      <SubMenu key="tech" icon={<PieChartOutlined />} title="Technology">
-        <Menu.Item key="front">
-          Frontend
-          <Link to="/frontend"/>
-        </Menu.Item>
-        <Menu.Item key="back">
-          Backend
-          <Link to="/backend"/>
-        </Menu.Item>
-      </SubMenu>
-      <Menu.Item key="resume" icon={<FileOutlined />}>
+      <Menu.Item key="HomeRig" icon={<LaptopOutlined />}>
+        Home Setup
+        <Link to="/homesetup"/>
+      </Menu.Item>
+      <Menu.Item key="resume" icon={<ContainerOutlined />}>
         Resume
         <Link to="/resume"/>
-      </Menu.Item>
-      <Menu.Item key="about" icon={<UserOutlined />}>
-        About Me
-        <Link to="/about"/>
       </Menu.Item>
     </Menu>
   );

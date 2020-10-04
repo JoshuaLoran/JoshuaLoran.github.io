@@ -1,5 +1,5 @@
 import React from "react";
-import {Flex, Image, Text} from "@chakra-ui/core";
+import {Flex, Text} from "@chakra-ui/core";
 import {IconList} from "../../layout/Icons/IconList";
 import {homeControlIcons} from "./constants";
 import homeControlScreen from "../../../images/homecontrol/homeControlScreen.png";
@@ -7,6 +7,7 @@ import homeControlHomeScreen from "../../../images/homecontrol/homeControlHomeSc
 import homeControlConnectScreen from "../../../images/homecontrol/homeControlConnectScreen.png"
 import {WorkTree} from "../../layout/WorkTree";
 import {workTreeData} from "./constants"
+import {Picture} from "../../layout/Picture";
 
 const HomeControl = () => {
   return (
@@ -18,12 +19,13 @@ const HomeControl = () => {
         and makers connect their devices without needing knowledge of anything internet related. I was given special
         recognition for this project for both building example devices and using several technologies we were not taught.</Text>
       <Flex wrap="wrap" direction="row" justifyContent="space-evenly">
-        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["100%", "100%", "100%", "40%"]} src={homeControlHomeScreen}/>
+        <Picture size={["100%", "100%", "100%", "40%"]} imgFile={homeControlHomeScreen}/>
         <WorkTree iconList={<IconList icons={homeControlIcons}/>} {...workTreeData}/>
       </Flex>
-      <Flex wrap="wrap" direction="row" justifyContent="space-evenly">
-        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["100%", "100%", "100%", "40%"]} src={homeControlScreen}/>
-        <Image rounded="25px" mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["100%", "100%", "100%", "40%"]} src={homeControlConnectScreen}/>
+      <Text textDecoration="underline" fontSize={["20px", "24px", "32px", "48px"]}>Screenshots</Text>
+      <Flex wrap="wrap" direction="row" justifyContent="space-around">
+        <Picture imgFile={homeControlScreen}/>
+        <Picture imgFile={homeControlConnectScreen}/>
       </Flex>
     </Flex>
   );
