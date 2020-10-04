@@ -12,7 +12,7 @@ const variants = {
   big: {scale: 2.25, marginBottom: "65%"}
 };
 
-const SideBar = () => {
+const SideBar = ({isMobile}) => {
   const [collapsed, setCollapsed] = useState(true);
   return (
     <Sider

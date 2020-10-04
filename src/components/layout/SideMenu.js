@@ -13,7 +13,12 @@ const {SubMenu} = Menu;
 
 const SideMenu = ({handleMenuClick, collapsed}) => {
   return (
-    <Menu onClick={handleMenuClick} theme={!collapsed && "dark"} mode="inline" selectable={false}>
+    <Menu
+      onClick={handleMenuClick}
+      theme={!collapsed && "dark"}
+      mode="inline"
+      selectable={false}
+    >
       <Menu.Item key="about" icon={<UserOutlined />}>
         About Me
         <Link to="/about"/>

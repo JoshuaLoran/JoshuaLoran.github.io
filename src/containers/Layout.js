@@ -12,7 +12,6 @@ const getWidth = () => window.innerWidth
   || document.body.clientWidth;
 
 const Root = () => {
-  const [route, setRoute] = useState("about");
   const [windowSize, setWindowSize] = useState(getWidth());
 
   useEffect(() => {
@@ -29,9 +28,7 @@ const Root = () => {
 
   return (
     <Layout style={{minHeight: "100vh"}}>
-      <SideBar
-        route={route}
-        setRoute={setRoute}/>
+      <SideBar/>
       <Layout className="site-layout">
         <Header className="site-layout-background" style={{padding: 0}}>
           <h1 style={{marginLeft: "80px"}}>{isMobile ? mobileHeader : desktopHeader}</h1>
