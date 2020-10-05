@@ -36,9 +36,6 @@ const Routes = () => {
       <Route path="/resume">
         <Resume/>
       </Route>
-      <Route path="/about">
-        <HomeDash />
-      </Route>
     </Switch>
   );
 };

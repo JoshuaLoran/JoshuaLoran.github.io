@@ -21,7 +21,7 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
     >
       <Menu.Item key="about" icon={<UserOutlined />}>
         About Me
-        <Link to="/about"/>
+        <Link to="/"/>
       </Menu.Item>
       <SubMenu key="professionalProjects" icon={<TeamOutlined />} title="Professional Work">
         <Menu.Item key="conmitto">
