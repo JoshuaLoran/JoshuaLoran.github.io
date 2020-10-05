@@ -6,6 +6,10 @@ import css3 from "@iconify/icons-logos/css-3";
 import bootstrapIcon from "@iconify/icons-logos/bootstrap";
 import herokuIcon from "@iconify/icons-logos/heroku-icon";
 
+export const socialWildBlurb = `Working as team, we designed this project because of our love of the outdoors.
+      We also wanted to do something challenging like a social site.  Users are able to create profiles, trips, and destination reviews,
+      as well as rate destinations and follow/be followed by each other.`;
+
 export const socialWildernessIcons = [
   {
     icon: rubyIcon,
@@ -47,7 +51,7 @@ export const workTreeData = {
   secondHeading: "Fun Parts",
   secondList: [
     "Added nature sounds to the website (pretty awful in hindsight)",
-    "Planning out the database structure with the various relationships was a great learning experience",
+    "Planned and built the database structure with the various relationships and felt it was a great learning experience",
   ],
   linkUrl: "https://boiling-fjord-61842.herokuapp.com/"
 }

@@ -35,7 +35,7 @@ export const quotes = [
 export const workTreeData = {
   topHeading: "Technical Responsibilties",
   topList: [
-    "Assisted with much of the frontend design and implementation",
+    "Developed much of the frontend design and implementation",
     "Built and/or modified models, views, serializers, and various features in a Django/Postgres API",
     "Worked within React and Redux, including generated base stores with RSAA CRUD and other actions",
     "Designed an internal responsive and composable library, including HOC wrappers to encapsulate shared structure/logic",

@@ -6,6 +6,9 @@ import css3 from "@iconify/icons-logos/css-3";
 import websocketIcon from "@iconify/icons-logos/websocket";
 import herokuIcon from "@iconify/icons-logos/heroku-icon";
 
+export const farmFrenzyBlurb = `I really wanted to branch out from what we were doing in class and make a realtime multiplayer game.
+  To keep this game simple and fun for kids, I made tic-tac-toe with a farm animal theme.  This was the first time 
+  I used websockets and it worked really well. Kids could choose which farm animal represented their "X" or "O"`;
 
 export const farmFrenzyIcons = [
   {

@@ -7,8 +7,14 @@ import nodejsIcon from "@iconify/icons-logos/nodejs";
 import raspberryPi from "@iconify/icons-logos/raspberry-pi";
 import websocketIcon from "@iconify/icons-logos/websocket";
 import npmIcon from "@iconify/icons-logos/npm";
-import semanticUi from '@iconify/icons-logos/semantic-ui';
+import semanticUi from "@iconify/icons-logos/semantic-ui";
 import herokuIcon from "@iconify/icons-logos/heroku-icon";
+
+export const homeControlBlurb = `Utilising devices such as Arduino and RaspberryPi was my
+        first dive into programming and development. While it was simple enough to put together devices/hacks, connecting
+        these things to be controlled from anywhere there is internet was  another story. I made Home Control to help new tinkerers
+        and makers connect their devices without needing knowledge of anything internet related. I was given special
+        recognition for this project for both building example devices and using several technologies we were not taught.`;
 
 
 export const workTreeData = {
