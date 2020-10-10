@@ -1,13 +1,14 @@
 import React from "react";
-import {IconList} from "../../layout/Icons/IconList";
+import {IconList} from "../../common/Icons/IconList";
 import {socialWildernessIcons, workTreeData, socialWildBlurb} from "./constants";
 import {Flex, Text} from "@chakra-ui/core";
-import {Picture} from "../../layout/Picture";
-import {WorkTree} from "../../layout/WorkTree";
-import socialWildernessScreen from "../../../images/socialwilderness/socialWildernessScreen.png";
-import socialWildernessLeoScreen from "../../../images/socialwilderness/socialWildernessLeoScreen.png";
-import socialWildernessDestinationScreen from "../../../images/socialwilderness/socialWildernessDestinationScreen.png"
+import {Picture} from "../../common/layout/Picture";
+import {WorkTree} from "../../common/layout/WorkTree";
+import socialWildernessScreen from "../../../files/images/socialwilderness/socialWildernessScreen.png";
+import socialWildernessLeoScreen from "../../../files/images/socialwilderness/socialWildernessLeoScreen.png";
+import socialWildernessDestinationScreen from "../../../files/images/socialwilderness/socialWildernessDestinationScreen.png";
 
+// Component to layout the Social Wilderness page content
 const SocialWilderness = () => {
   return (
     <Flex direction="column" alignItems="center">

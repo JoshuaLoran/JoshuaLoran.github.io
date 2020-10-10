@@ -1,19 +1,23 @@
 import React, {useState} from "react";
 import {Layout, Avatar, Affix} from "antd";
-import ProfilePic from "../../images/ProfilePic.jpeg";
+import ProfilePic from "../../../files/images/ProfilePic.jpeg";
 import {SideMenu} from "./SideMenu";
 import {motion} from "framer-motion";
-import {ParticleBG} from "../particles/ParticleBG";
+import {ParticleBG} from "../../particles/ParticleBG";
 
 const {Sider} = Layout;
 
+// FramerMotion variants to dictate size on change points
 const variants = {
   small: {scale: 1, marginBottom: "10%"},
   big: {scale: 2.25, marginBottom: "65%"}
 };
 
-const SideBar = ({isMobile}) => {
+// Component to organize and control the sidebar
+const SideBar = () => {
+  // State to keep track of whether the menu is open/closed
   const [collapsed, setCollapsed] = useState(true);
+
   return (
     <Sider
       style={{

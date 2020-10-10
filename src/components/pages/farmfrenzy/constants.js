@@ -6,10 +6,31 @@ import css3 from "@iconify/icons-logos/css-3";
 import websocketIcon from "@iconify/icons-logos/websocket";
 import herokuIcon from "@iconify/icons-logos/heroku-icon";
 
+// Top intro blurb about Farm Frenzy
 export const farmFrenzyBlurb = `I really wanted to branch out from what we were doing in class and make a realtime multiplayer game.
   To keep this game simple and fun for kids, I made tic-tac-toe with a farm animal theme.  This was the first time 
   I used websockets and it worked really well. Kids could choose which farm animal represented their "X" or "O"`;
 
+////////////////////////////////////
+// Content for the Farm Frenzy worktree
+////////////////////////////////////
+export const workTreeData = {
+  topHeading: "Highlights",
+  topList: [
+    "Built Ruby on Rails API enabling users to securely create and log into an account",
+    "Websockets using Actioncable for real time fun",
+    "Designed graphic interface with personalized icon markers",
+    "Constructed game logic"
+  ],
+  secondHeading: "Fun Parts",
+  secondList: [
+    "Diving into websockets even though they weren't taught to us",
+    "Coming up with the farm theme and designing the graphic interface",
+    "Watching people in my class play after it was finished"
+  ]
+};
+
+// Tech icons used in the Farm Frenzy project
 export const farmFrenzyIcons = [
   {
     icon: rubyIcon,
@@ -40,20 +61,4 @@ export const farmFrenzyIcons = [
     link: "https://www.heroku.com/"
   }
 ];
-
-export const workTreeData = {
-  topHeading: "Highlights",
-  topList: [
-    "Built Ruby on Rails API enabling users to securely create and log into an account",
-    "Websockets using Actioncable for real time fun",
-    "Designed graphic interface with personalized icon markers",
-    "Constructed game logic"
-  ],
-  secondHeading: "Fun Parts",
-  secondList: [
-    "Diving into websockets even though they weren't taught to us",
-    "Coming up with the farm theme and designing the graphic interface",
-    "Watching people in my class play after it was finished"
-  ]
-};
 

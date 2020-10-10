@@ -27,7 +27,7 @@ import mailchimpFreddie from "@iconify/icons-logos/mailchimp-freddie";
 import microsoftWindows from "@iconify/icons-logos/microsoft-windows";
 import macosIcon from "@iconify/icons-logos/macos";
 
-
+// Blurb about myself and start
 export const homePageContent = {
   pageTitle: "Home",
   firstBlurb: `I am a maker at heart and my love of building and puzzles have helped me easily transition into software
@@ -37,6 +37,7 @@ export const homePageContent = {
     new languages and skills.`
 };
 
+// Icons for all the tech I've used in all my projects
 export const homeIcons = [
   {
     icon: intellijIdea,

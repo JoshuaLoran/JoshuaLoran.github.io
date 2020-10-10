@@ -1,13 +1,14 @@
 import React from "react";
 import {Flex, Text} from "@chakra-ui/core";
-import {IconList} from "../../layout/Icons/IconList";
-import homeControlScreen from "../../../images/homecontrol/homeControlScreen.png";
-import homeControlHomeScreen from "../../../images/homecontrol/homeControlHomeScreen.png";
-import homeControlConnectScreen from "../../../images/homecontrol/homeControlConnectScreen.png"
-import {WorkTree} from "../../layout/WorkTree";
-import {workTreeData, homeControlBlurb, homeControlIcons} from "./constants"
-import {Picture} from "../../layout/Picture";
+import {IconList} from "../../common/Icons/IconList";
+import {WorkTree} from "../../common/layout/WorkTree";
+import homeControlScreen from "../../../files/images/homecontrol/homeControlScreen.png";
+import homeControlHomeScreen from "../../../files/images/homecontrol/homeControlHomeScreen.png";
+import homeControlConnectScreen from "../../../files/images/homecontrol/homeControlConnectScreen.png";
+import {workTreeData, homeControlBlurb, homeControlIcons} from "./constants";
+import {Picture} from "../../common/layout/Picture";
 
+// Component to layout the Conmitto page content
 const HomeControl = () => {
   return (
     <Flex direction="column" alignItems="center">

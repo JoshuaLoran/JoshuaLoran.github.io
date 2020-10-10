@@ -1,8 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {Box, Flex} from "@chakra-ui/core";
 import {Icon} from "@iconify/react";
 
 
+// Component to take in an array of Icon objects and present them in format
 const IconList = ({icons}) => {
   return (
     <Flex w="80%" wrap="wrap" justify="space-around">
@@ -18,3 +20,11 @@ const IconList = ({icons}) => {
 };
 
 export {IconList};
+
+IconList.defaultProps = {
+  icons: []
+};
+
+IconList.propTypes = {
+  icons: PropTypes.arrayOf(PropTypes.object)
+};

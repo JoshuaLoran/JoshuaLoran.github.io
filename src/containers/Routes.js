@@ -9,6 +9,7 @@ import {FarmFrenzy} from "../components/pages/farmfrenzy/FarmFrenzy";
 import {Resume} from "../components/pages/resume/Resume";
 import {HomeSetup} from "../components/pages/homesetup/HomeSetup";
 
+// Define routes for all the pages
 const Routes = () => {
   return (
     <Switch>

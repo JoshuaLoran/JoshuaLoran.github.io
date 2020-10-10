@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {withRouter} from "react-router-dom";
 
+// Registered component with react-router that will scroll to top if links are executed
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {
     if (this.props.location !== prevProps.location) {

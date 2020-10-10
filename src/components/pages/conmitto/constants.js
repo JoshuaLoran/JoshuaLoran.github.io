@@ -10,11 +10,13 @@ import websocketIcon from "@iconify/icons-logos/websocket";
 import postgresqlIcon from "@iconify/icons-logos/postgresql";
 import dockerIcon from "@iconify/icons-logos/docker-icon";
 import cypressIcon from "@iconify/icons-logos/cypress";
-import githubIcon from "@iconify/icons-logos/github-icon";
 import gitlabIcon from "@iconify/icons-logos/gitlab";
 import trelloIcon from "@iconify/icons-logos/trello";
 import yarnIcon from "@iconify/icons-logos/yarn";
 
+////////////////////////////////////
+// Quotes from the Conmitto website
+////////////////////////////////////
 const bridgeQuote = "We help bridge the digital and physical industrial worlds.";
 
 const userCentricQuote = "Conmitto designs user-centric systems for your organization’s biggest asset and operational challenges.";
@@ -27,11 +29,15 @@ const productionQuote = "View Production Lines, Plan Production Schedules and Tr
 
 const autoQuote = "An automated assets, facilities and inventory management system to prevent the spread of infections.";
 
+// Organize the quotes
 export const quotes = [
   {quoteOne: bridgeQuote, quoteTwo: userCentricQuote, quoteThree: productionQuote},
   {quoteOne: digitalAssetQuote, quoteTwo: IMLQuote, quoteThree: autoQuote}
 ];
 
+////////////////////////////////////
+// Content for the Conmitto worktree
+////////////////////////////////////
 export const workTreeData = {
   topHeading: "Technical Responsibilties",
   topList: [
@@ -65,6 +71,7 @@ export const workTreeData = {
   linkUrl: "https://conmittomanager.com/#/"
 };
 
+// Tech icons used in the Conmitto project
 export const conmittoIcons = [
   {
     icon: intellijIdea,

@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
+// Particle configuration for the Particle.js SideBar background
 const ParticleBG = () => {
   return (<Particles
     width="100%"

@@ -1,13 +1,15 @@
 import React from "react";
 import {Text, Image, Flex} from "@chakra-ui/core";
-import {WorkTree} from "../../layout/WorkTree";
+import {WorkTree} from "../../common/layout/WorkTree";
 import {QuoteBox} from "./QuoteBox";
 import {quotes, workTreeData} from "./constants";
-import conmittoLogo from "../../../images/conmitto/conmittoLogo.png";
-import ScreenOne from "../../../images/conmitto/ConmitScreen.png";
-import {IconList} from "../../layout/Icons/IconList";
+import conmittoLogo from "../../../files/images/conmitto/conmittoLogo.png";
+import ScreenOne from "../../../files/images/conmitto/ConmitScreen.png";
+import {IconList} from "../../common/Icons/IconList";
 import {conmittoIcons} from "./constants";
 
+
+// Component to layout the Conmitto page content
 const ConmittoPage = () => {
   return (
     <Flex direction="column" alignItems="center">

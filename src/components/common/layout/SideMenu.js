@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import {Menu} from "antd";
 import {Link} from "react-router-dom";
 import {
@@ -11,6 +12,7 @@ import {
 
 const {SubMenu} = Menu;
 
+// Menu component to display navigation
 const SideMenu = ({handleMenuClick, collapsed}) => {
   return (
     <Menu
@@ -60,3 +62,13 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
 };
 
 export {SideMenu};
+
+SideMenu.defaultProps = {
+  handleMenuClick: e => console.log(e),
+  collapsed: true
+};
+
+SideMenu.propTypes = {
+  handleMenuClick: PropTypes.func,
+  collapsed: PropTypes.bool
+};

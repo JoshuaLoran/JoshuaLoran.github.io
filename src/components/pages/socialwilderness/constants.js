@@ -6,10 +6,30 @@ import css3 from "@iconify/icons-logos/css-3";
 import bootstrapIcon from "@iconify/icons-logos/bootstrap";
 import herokuIcon from "@iconify/icons-logos/heroku-icon";
 
+// Blurb about the social wilderness project
 export const socialWildBlurb = `Working as team, we designed this project because of our love of the outdoors.
       We also wanted to do something challenging like a social site.  Users are able to create profiles, trips, and destination reviews,
       as well as rate destinations and follow/be followed by each other.`;
 
+/////////////////////////////////////////////
+// Content for the Social Wilderness worktree
+/////////////////////////////////////////////
+export const workTreeData = {
+  topHeading: "Highlights",
+  topList: [
+    "Built Ruby on Rails API enabling users to securely create and log into an account",
+    "Social site where users can follow each others adventures",
+    "Search for destinations and plan trips.  Review and rate your trips to share with friends",
+  ],
+  secondHeading: "Fun Parts",
+  secondList: [
+    "Added nature sounds to the website (pretty awful in hindsight)",
+    "Planned and built the database structure with the various relationships and felt it was a great learning experience",
+  ],
+  linkUrl: "https://boiling-fjord-61842.herokuapp.com/"
+};
+
+// Tech icons used in the Social Wilderness project
 export const socialWildernessIcons = [
   {
     icon: rubyIcon,
@@ -40,18 +60,3 @@ export const socialWildernessIcons = [
     link: "https://www.heroku.com/"
   }
 ];
-
-export const workTreeData = {
-  topHeading: "Highlights",
-  topList: [
-    "Built Ruby on Rails API enabling users to securely create and log into an account",
-    "Social site where users can follow each others adventures",
-    "Search for destinations and plan trips.  Review and rate your trips to share with friends",
-  ],
-  secondHeading: "Fun Parts",
-  secondList: [
-    "Added nature sounds to the website (pretty awful in hindsight)",
-    "Planned and built the database structure with the various relationships and felt it was a great learning experience",
-  ],
-  linkUrl: "https://boiling-fjord-61842.herokuapp.com/"
-}

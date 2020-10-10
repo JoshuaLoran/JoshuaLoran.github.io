@@ -1,12 +1,11 @@
 import React from "react";
-import {IconList} from "../../layout/Icons/IconList";
+import {IconList} from "../../common/Icons/IconList";
 import {farmFrenzyIcons, workTreeData, farmFrenzyBlurb} from "./constants";
 import {Flex, Image, Text} from "@chakra-ui/core";
-import {WorkTree} from "../../layout/WorkTree";
-import farmfrenzy from "../../../images/farmfrenzy/farmfrenzy.gif";
+import {WorkTree} from "../../common/layout/WorkTree";
+import farmfrenzy from "../../../files/images/farmfrenzy/farmfrenzy.gif";
 
-
-
+// Component to layout the Farm Frenzy page content
 const FarmFrenzy = () => {
   return (
     <Flex direction="column" alignItems="center">
