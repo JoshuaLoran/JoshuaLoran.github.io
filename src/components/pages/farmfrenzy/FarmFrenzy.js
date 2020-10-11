@@ -3,7 +3,7 @@ import {IconList} from "../../common/Icons/IconList";
 import {farmFrenzyIcons, workTreeData, farmFrenzyBlurb} from "./constants";
 import {Flex, Image, Text} from "@chakra-ui/core";
 import {WorkTree} from "../../common/layout/WorkTree";
-import farmfrenzy from "../../../files/images/farmfrenzy/farmfrenzy.gif";
+import farmfrenzy from "../../../assets/images/farmfrenzy/farmfrenzy.gif";
 
 // Component to layout the Farm Frenzy page content
 const FarmFrenzy = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import JoshuaLoranResume from "../../../files/JoshuaLoranResume.pdf";
+import JoshuaLoranResume from "../../../assets/JoshuaLoranResume.pdf";
 
 const Resume = () => {
   return (

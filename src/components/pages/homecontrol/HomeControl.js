@@ -2,9 +2,9 @@ import React from "react";
 import {Flex, Text} from "@chakra-ui/core";
 import {IconList} from "../../common/Icons/IconList";
 import {WorkTree} from "../../common/layout/WorkTree";
-import homeControlScreen from "../../../files/images/homecontrol/homeControlScreen.png";
-import homeControlHomeScreen from "../../../files/images/homecontrol/homeControlHomeScreen.png";
-import homeControlConnectScreen from "../../../files/images/homecontrol/homeControlConnectScreen.png";
+import homeControlScreen from "../../../assets/images/homecontrol/homeControlScreen.png";
+import homeControlHomeScreen from "../../../assets/images/homecontrol/homeControlHomeScreen.png";
+import homeControlConnectScreen from "../../../assets/images/homecontrol/homeControlConnectScreen.png";
 import {workTreeData, homeControlBlurb, homeControlIcons} from "./constants";
 import {Picture} from "../../common/layout/Picture";
 

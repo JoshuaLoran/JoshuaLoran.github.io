@@ -3,8 +3,8 @@ import {Text, Image, Flex} from "@chakra-ui/core";
 import {sylvanBlurb, sylvanIcons, workTreeData} from "./constants";
 import {WorkTree} from "../../common/layout/WorkTree";
 import {IconList} from "../../common/Icons/IconList";
-import sylvan from "../../../files/images/sylvan/sylvan.png";
-import sylvanScreen from "../../../files/images/sylvan/sylvanScreen.png";
+import sylvan from "../../../assets/images/sylvan/sylvan.png";
+import sylvanScreen from "../../../assets/images/sylvan/sylvanScreen.png";
 
 // Component to layout the Sylvan Heights page content
 const SylvanPage = () => {

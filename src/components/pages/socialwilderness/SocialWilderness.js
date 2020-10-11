@@ -4,9 +4,9 @@ import {socialWildernessIcons, workTreeData, socialWildBlurb} from "./constants"
 import {Flex, Text} from "@chakra-ui/core";
 import {Picture} from "../../common/layout/Picture";
 import {WorkTree} from "../../common/layout/WorkTree";
-import socialWildernessScreen from "../../../files/images/socialwilderness/socialWildernessScreen.png";
-import socialWildernessLeoScreen from "../../../files/images/socialwilderness/socialWildernessLeoScreen.png";
-import socialWildernessDestinationScreen from "../../../files/images/socialwilderness/socialWildernessDestinationScreen.png";
+import socialWildernessScreen from "../../../assets/images/socialwilderness/socialWildernessScreen.png";
+import socialWildernessLeoScreen from "../../../assets/images/socialwilderness/socialWildernessLeoScreen.png";
+import socialWildernessDestinationScreen from "../../../assets/images/socialwilderness/socialWildernessDestinationScreen.png";
 
 // Component to layout the Social Wilderness page content
 const SocialWilderness = () => {

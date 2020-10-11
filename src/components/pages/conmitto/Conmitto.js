@@ -3,8 +3,8 @@ import {Text, Image, Flex} from "@chakra-ui/core";
 import {WorkTree} from "../../common/layout/WorkTree";
 import {QuoteBox} from "./QuoteBox";
 import {quotes, workTreeData} from "./constants";
-import conmittoLogo from "../../../files/images/conmitto/conmittoLogo.png";
-import ScreenOne from "../../../files/images/conmitto/ConmitScreen.png";
+import conmittoLogo from "../../../assets/images/conmitto/conmittoLogo.png";
+import ScreenOne from "../../../assets/images/conmitto/ConmitScreen.png";
 import {IconList} from "../../common/Icons/IconList";
 import {conmittoIcons} from "./constants";
 
