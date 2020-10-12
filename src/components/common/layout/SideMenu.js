@@ -30,6 +30,10 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
           Conmitto
           <Link to="/conmitto"/>
         </Menu.Item>
+        <Menu.Item key="vennity">
+          Vennity
+          <Link to="/vennity"/>
+        </Menu.Item>
         <Menu.Item key="sylvan">
           Sylvan Heights
           <Link to="/sylvan"/>

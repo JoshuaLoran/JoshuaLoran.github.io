@@ -9,5 +9,3 @@ const HomeSetup = () => {
 };
 
 export {HomeSetup};
-
-HomeSetup.propTypes = {};

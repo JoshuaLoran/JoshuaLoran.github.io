@@ -8,6 +8,7 @@ import {SocialWilderness} from "../components/pages/socialwilderness/SocialWilde
 import {FarmFrenzy} from "../components/pages/farmfrenzy/FarmFrenzy";
 import {Resume} from "../components/pages/resume/Resume";
 import {HomeSetup} from "../components/pages/homesetup/HomeSetup";
+import {Vennity} from "../components/pages/vennity/Vennity";
 
 // Define routes for all the pages
 const Routes = () => {
@@ -18,6 +19,9 @@ const Routes = () => {
       </Route>
       <Route path="/conmitto">
         <ConmittoPage/>
+      </Route>
+      <Route path="/vennity">
+        <Vennity/>
       </Route>
       <Route path="/SYLVAN">
         <SylvanPage/>
