@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {Layout} from "antd";
+import {Affix, Layout} from "antd";
 import {SideBar} from "../components/common/layout/SideBar";
 import {Routes} from "./Routes";
 
@@ -36,9 +36,9 @@ const Root = () => {
     <Layout style={{minHeight: "100vh"}}>
       <SideBar/>
       <Layout className="site-layout">
-        <Header className="site-layout-background" style={{padding: 0}}>
-          <h1 style={{marginLeft: "80px"}}>{siteHeader}</h1>
-        </Header>
+          <Header className="site-layout-background">
+            <h1 style={{marginLeft: "80px"}}>{siteHeader}</h1>
+          </Header>
         <Content
           className="site-layout-background"
           style={{

@@ -8,16 +8,17 @@ const style = {
 
 // Component to display an image with bullets about work done
 const WorkTree = ({topHeading, secondHeading, topList, secondList, linkUrl, iconList, onRight}) => {
+  const dirSide = !onRight ? "rtl" : "";
   return (
     <Box w={["100%", "100%", "100%", "40%"]} textAlign={onRight ? "left" : "right"} mt={[30, 30, 35, 80]} h="100%">
       <h2 style={style}>{topHeading || ""}{topHeading ? ":" : ""}</h2>
-      <div dir={!onRight && "rtl"}>
+      <div dir={dirSide}>
         {topList && topList.map((bullet, key) => (
           <p key={key}><li>{bullet}</li></p>
         ))}
       </div>
       <h2 style={style}>{secondHeading || ""}{secondHeading ? ":" : ""}</h2>
-      <div dir={!onRight && "rtl"}>
+      <div dir={dirSide}>
         {secondList && secondList.map((bullet, key) => (
           <p key={key}><li>{bullet}</li></p>
         ))}

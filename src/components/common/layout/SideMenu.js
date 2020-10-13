@@ -68,7 +68,7 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
 export {SideMenu};
 
 SideMenu.defaultProps = {
-  handleMenuClick: e => console.log(e),
+  handleMenuClick: () => console.log,
   collapsed: true
 };
 

@@ -112,10 +112,6 @@ export const homeIcons = [
     link: "https://developer.mozilla.org/en-US/docs/Archive/CSS3"
   },
   {
-    icon: websocketIcon,
-    link: "https://guides.rubyonrails.org/action_cable_overview.html"
-  },
-  {
     icon: herokuIcon,
     link: "https://www.heroku.com/"
   },
@@ -130,10 +126,6 @@ export const homeIcons = [
   {
     icon: raspberryPi,
     link: "https://www.raspberrypi.org/"
-  },
-  {
-    icon: websocketIcon,
-    link: "https://guides.rubyonrails.org/action_cable_overview.html"
   },
   {
     icon: npmIcon,
