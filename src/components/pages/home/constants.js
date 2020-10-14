@@ -37,7 +37,7 @@ export const homePageContent = {
     new languages and skills.`,
   secondBlurb: `Before learning to develop software, I worked many years in the restaurant industry and have proven
    experience in team management and team building as well as excellent customer service and communication skills. My 
-   work ethic and management approach has never failed to bring positive quantitative and qualitative outcomes for goals
+   work ethic and management approach have never failed to bring positive quantitative and qualitative outcomes for goals
    set and people involved.`
 };
 
