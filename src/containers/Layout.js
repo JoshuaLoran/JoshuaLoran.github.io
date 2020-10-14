@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import {Affix, Layout} from "antd";
+import {Layout} from "antd";
 import {SideBar} from "../components/common/layout/SideBar";
 import {Routes} from "./Routes";
 

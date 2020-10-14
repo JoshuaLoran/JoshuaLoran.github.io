@@ -14,6 +14,8 @@ import gitlabIcon from "@iconify/icons-logos/gitlab";
 import trelloIcon from "@iconify/icons-logos/trello";
 import yarnIcon from "@iconify/icons-logos/yarn";
 
+export const subHeader = "Conmitto - Maintenance, Repair and Operations (MRO)";
+
 ////////////////////////////////////
 // Quotes from the Conmitto website
 ////////////////////////////////////

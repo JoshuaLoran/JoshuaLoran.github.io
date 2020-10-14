@@ -26,7 +26,7 @@ const WorkTree = ({topHeading, secondHeading, topList, secondList, linkUrl, icon
         {iconList}
         <br/>
       </div>
-      <p><a target="_blank" rel="noopener noreferrer" href={linkUrl}>Go to Web Site →</a></p>
+      {linkUrl && <p><a target="_blank" rel="noopener noreferrer" href={linkUrl}>Go to Web Site →</a></p>}
     </Box>
   );
 };
@@ -35,10 +35,7 @@ export {WorkTree};
 
 WorkTree.defaultProps = {
   topHeading: "Top Heading",
-  secondHeading: "Second Heading",
   topList: [],
-  secondList: [],
-  linkUrl: "https://picsum.photos/id/237/536/354",
   iconList: null,
   onRight: true
 };

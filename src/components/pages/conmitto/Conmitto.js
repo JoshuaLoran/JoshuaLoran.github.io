@@ -2,7 +2,7 @@ import React from "react";
 import {Text, Image, Flex} from "@chakra-ui/core";
 import {WorkTree} from "../../common/layout/WorkTree";
 import {QuoteBox} from "./QuoteBox";
-import {quotes, workTreeData} from "./constants";
+import {quotes, workTreeData, subHeader} from "./constants";
 import conmittoLogo from "../../../assets/images/conmitto/conmittoLogo.png";
 import ScreenOne from "../../../assets/images/conmitto/ConmitScreen.png";
 import {IconList} from "../../common/Icons/IconList";
@@ -14,7 +14,7 @@ const ConmittoPage = () => {
   return (
     <Flex direction="column" alignItems="center">
       <Image mb={[20, 40, 70, 80]} mt={[10, 30, 60, 70]} size={["50%", "45%", "40%", "30%"]} src={conmittoLogo}/>
-      <Text fontSize={["16px", "24px", "30px", "34px"]}>Conmitto - Maintenance, Repair and Operations (MRO)</Text>
+      <Text fontSize={["16px", "24px", "30px", "34px"]}>{subHeader}</Text>
       <Flex w="80%" ml={["2%", "10%", "20%%", "20%"]} mr={["2%", "10%", "20%", "20%"]} wrap="wrap" justify="space-between">
         {quotes.map((quotes, key) => (
           <QuoteBox key={key} quoteOne={quotes.quoteOne} quoteTwo={quotes.quoteTwo} quoteThree={quotes.quoteThree}/>
