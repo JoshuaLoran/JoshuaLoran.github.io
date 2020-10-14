@@ -30,15 +30,15 @@ import macosIcon from "@iconify/icons-logos/macos";
 // Blurb about myself and start
 export const homePageContent = {
   pageTitle: "Home",
-  firstBlurb: `I am a maker at heart and my love of building and puzzles have helped me easily transition into software
-   engineering. I have gone from creating gadgets with Raspberry Pi's and Arduino in my spare time to becoming a full 
+  firstBlurb: `I am a maker at heart and my love of building and puzzles has helped me easily transition into software
+   engineering. I have gone from creating gadgets with Raspberry Pi and Arduino devices in my spare time to becoming a full 
    stack web developer proficient in JavaScript, React, Ruby, HTML, SQL and more. I love working through problems,
     understanding the root of an issue and implementing solutions. As a lifelong student, I have a passion for learning 
     new languages and skills.`,
   secondBlurb: `Before learning to develop software, I worked many years in the restaurant industry and have proven
    experience in team management and team building as well as excellent customer service and communication skills. My 
    work ethic and management approach has never failed to bring positive quantitative and qualitative outcomes for goals
-   set and people involved`
+   set and people involved.`
 };
 
 // Icons for all the tech I've used in all my projects
