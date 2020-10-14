@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.3351c49d.chunk.css",
-    "main.js": "/static/js/main.ccfbf817.chunk.js",
-    "main.js.map": "/static/js/main.ccfbf817.chunk.js.map",
+    "main.js": "/static/js/main.7f38d70e.chunk.js",
+    "main.js.map": "/static/js/main.7f38d70e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.04ff9426.chunk.css": "/static/css/2.04ff9426.chunk.css",
-    "static/js/2.2c292a85.chunk.js": "/static/js/2.2c292a85.chunk.js",
-    "static/js/2.2c292a85.chunk.js.map": "/static/js/2.2c292a85.chunk.js.map",
+    "static/js/2.32016b72.chunk.js": "/static/js/2.32016b72.chunk.js",
+    "static/js/2.32016b72.chunk.js.map": "/static/js/2.32016b72.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7f74e74d1bb8264b491f4a111fe7ac4b.js": "/precache-manifest.7f74e74d1bb8264b491f4a111fe7ac4b.js",
+    "precache-manifest.b60bc0742a6affbfa0e207e0c7207af0.js": "/precache-manifest.b60bc0742a6affbfa0e207e0c7207af0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.04ff9426.chunk.css.map": "/static/css/2.04ff9426.chunk.css.map",
     "static/css/main.3351c49d.chunk.css.map": "/static/css/main.3351c49d.chunk.css.map",
-    "static/js/2.2c292a85.chunk.js.LICENSE.txt": "/static/js/2.2c292a85.chunk.js.LICENSE.txt",
+    "static/js/2.32016b72.chunk.js.LICENSE.txt": "/static/js/2.32016b72.chunk.js.LICENSE.txt",
     "static/media/ConmitScreen.png": "/static/media/ConmitScreen.e97f5a35.png",
     "static/media/JoshuaLoranResume.pdf": "/static/media/JoshuaLoranResume.161d448c.pdf",
     "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.0ee38c16.jpeg",
     "static/media/city.webp": "/static/media/city.2c268ac5.webp",
     "static/media/conmittoLogo.png": "/static/media/conmittoLogo.3b593ed5.png",
+    "static/media/deskSetup.jpg": "/static/media/deskSetup.81a82de5.jpg",
     "static/media/farmfrenzy.gif": "/static/media/farmfrenzy.778a580f.gif",
     "static/media/homeControlConnectScreen.png": "/static/media/homeControlConnectScreen.af01ccda.png",
     "static/media/homeControlHomeScreen.png": "/static/media/homeControlHomeScreen.8df849bb.png",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.04ff9426.chunk.css",
-    "static/js/2.2c292a85.chunk.js",
+    "static/js/2.32016b72.chunk.js",
     "static/css/main.3351c49d.chunk.css",
-    "static/js/main.ccfbf817.chunk.js"
+    "static/js/main.7f38d70e.chunk.js"
   ]
 }
