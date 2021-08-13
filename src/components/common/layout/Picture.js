@@ -4,9 +4,9 @@ import {Image} from "@chakra-ui/core";
 
 
 // Component to standardize image format for layout
-const Picture = ({imgFile, size}) => {
+const Picture = ({imgFile, size, noBorder}) => {
   return <Image
-    border="double"
+    border={noBorder ? "" : "double"}
     rounded="25px"
     mb={[20, 40, 70, 80]}
     mt={[10, 30, 60, 70]}
@@ -17,10 +17,12 @@ const Picture = ({imgFile, size}) => {
 export {Picture};
 
 Picture.defaultProps = {
-  size: ["100%", "100%", "40%", "40%"]
+  size: ["100%", "100%", "40%", "40%"],
+  noBorder: false
 };
 
 Picture.propTypes = {
   imgFile: PropTypes.node.isRequired,
-  size: PropTypes.arrayOf(PropTypes.string)
+  size: PropTypes.arrayOf(PropTypes.string),
+  noBorder: PropTypes.bool
 };

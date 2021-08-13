@@ -9,6 +9,7 @@ import {FarmFrenzy} from "../components/pages/farmfrenzy/FarmFrenzy";
 import {Resume} from "../components/pages/resume/Resume";
 import {HomeSetup} from "../components/pages/homesetup/HomeSetup";
 import {Vennity} from "../components/pages/vennity/Vennity";
+import {Reamaze} from "../components/pages/reamaze/Reamaze";
 
 // Define routes for all the pages
 const Routes = () => {
@@ -37,6 +38,9 @@ const Routes = () => {
       </Route>
       <Route path="/homesetup">
         <HomeSetup/>
+      </Route>
+      <Route path="/reamaze">
+        <Reamaze/>
       </Route>
       <Route path="/resume">
         <Resume/>

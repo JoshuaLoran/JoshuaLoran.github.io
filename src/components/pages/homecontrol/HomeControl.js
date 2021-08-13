@@ -8,7 +8,7 @@ import homeControlConnectScreen from "../../../assets/images/homecontrol/homeCon
 import {workTreeData, homeControlBlurb, homeControlIcons} from "./constants";
 import {Picture} from "../../common/layout/Picture";
 
-// Component to layout the Conmitto page content
+// Component to layout the Home Control page content
 const HomeControl = () => {
   return (
     <Flex direction="column" alignItems="center">

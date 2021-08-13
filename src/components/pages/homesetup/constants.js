@@ -14,6 +14,6 @@ export const setupWorktreeData = {
     "IBM Lenovo 104-key Keyboard",
     "Redragon M711 Cobra Gaming Mouse",
     "Sony WH-1000XM3 Wireless Noise-Canceling Headphones",
-    "2018 13\" MacBook Pro, 2.3GHz Quad-core i5, 8GB 2133MHz DDR3"
+    "2019 16\" MacBook Pro, 2.3GHz 8-core i9, 32GB 2667MHz DDR4"
   ]
 };

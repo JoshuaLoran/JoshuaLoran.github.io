@@ -3,7 +3,7 @@ import {Flex, Divider, Box, Text} from "@chakra-ui/core";
 import {homePageContent, homeIcons} from "./constants";
 import {IconList} from "../../common/Icons/IconList";
 
-// Component to layout the Conmitto page content
+// Component to layout the Home page content
 const HomeDash = () => {
   const {pageTitle, firstBlurb, secondBlurb} = homePageContent;
 
