@@ -26,7 +26,7 @@ const Root = () => {
       <SideBar/>
       <Layout className="site-layout">
         <Header className="site-layout-background">
-          <h1 style={{marginLeft: "80px"}}>{useRecoilValue(siteHeader)}</h1>
+          <h1>{useRecoilValue(siteHeader)}</h1>
         </Header>
         <Content
           className="site-layout-background"
