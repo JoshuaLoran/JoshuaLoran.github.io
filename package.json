@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.16.5",
     "prettier": "^2.4.0",
     "pretty-quick": "^2.0.2"
   }
