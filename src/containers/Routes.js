@@ -10,6 +10,7 @@ import {Resume} from "../components/pages/resume/Resume";
 import {HomeSetup} from "../components/pages/homesetup/HomeSetup";
 import {Vennity} from "../components/pages/vennity/Vennity";
 import {Reamaze} from "../components/pages/reamaze/Reamaze";
+import {Godaddy} from "../components/pages/godaddy/Godaddy";
 
 // Define routes for all the pages
 const Routes = () => {
@@ -44,6 +45,9 @@ const Routes = () => {
       </Route>
       <Route path="/resume">
         <Resume/>
+      </Route>
+      <Route path="/godaddy">
+        <Godaddy/>
       </Route>
     </Switch>
   );

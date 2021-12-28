@@ -11,7 +11,7 @@ import {IconList} from "../../common/Icons/IconList";
 // Component layout for Vennity page content
 const Reamaze = () => {
   return <Flex direction="column">
-    <Text mb="3%" mt="10px" fontSize={["30px", "40px", "54px", "96px"]}><Image verticalAlign="text-top" h="1em" w="1em" mr=".3em" src={wordlessLogo}></Image>Re:amaze</Text>
+    <Text mb="3%" mt="10px" fontSize={["30px", "40px", "54px", "96px"]}><Image verticalAlign="text-top" h="1em" w="1em" mr=".3em" alt="reamaze logo" src={wordlessLogo}></Image>Re:amaze</Text>
     <Text mb="0px" color="rgb(235, 94, 10)" fontSize={["16px", "24px", "30px", "40px"]}>{subHeader}</Text>
     <Text mb="0px" fontSize={["14px", "18px", "22px", "24px"]}>{titleDescription}</Text>
     <Divider style={{marginTop: "5%"}}/>

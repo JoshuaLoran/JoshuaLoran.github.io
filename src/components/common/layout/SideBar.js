@@ -32,15 +32,17 @@ const SideBar = () => {
       onMouseEnter={() => setCollapsed(false)}
       onMouseLeave={() => setCollapsed(true)}>
       <Affix>
-        <motion.div
-          className="logo"
-          animate={collapsed ? "small" : "big"}
-          transition={{duration: .5}}
-          variants={variants}>
-          <Avatar style={{marginTop: "20%", zIndex: 1000}} size={50} src={ProfilePic}/>
-        </motion.div>
-        <div style={{position: "relative", zIndex: 10}}>
-          <SideMenu collapsed={collapsed}/>
+        <div>
+          <motion.div
+            className="logo"
+            animate={collapsed ? "small" : "big"}
+            transition={{duration: .5}}
+            variants={variants}>
+            <Avatar style={{marginTop: "20%", zIndex: 1000}} alt="My profile picture" size={50} src={ProfilePic}/>
+          </motion.div>
+          <div style={{position: "relative", zIndex: 10}}>
+            <SideMenu collapsed={collapsed}/>
+          </div>
         </div>
       </Affix>
       {collapsed && <ParticleBG/>}

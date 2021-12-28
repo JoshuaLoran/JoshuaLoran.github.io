@@ -26,6 +26,10 @@ const SideMenu = ({handleMenuClick, collapsed}) => {
         <Link to="/"/>
       </Menu.Item>
       <SubMenu key="professionalProjects" icon={<TeamOutlined />} title="Professional Work">
+        <Menu.Item key="godaddy">
+          GoDaddy
+          <Link to="/godaddy"/>
+        </Menu.Item>
         <Menu.Item key="reamaze">
           Re:amaze
           <Link to="/reamaze"/>

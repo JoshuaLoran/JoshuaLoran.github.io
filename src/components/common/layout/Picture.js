@@ -4,13 +4,14 @@ import {Image} from "@chakra-ui/core";
 
 
 // Component to standardize image format for layout
-const Picture = ({imgFile, size, noBorder}) => {
+const Picture = ({imgFile, size, noBorder, alt}) => {
   return <Image
     border={noBorder ? "" : "double"}
     rounded="25px"
     mb={[20, 40, 70, 80]}
     mt={[10, 30, 60, 70]}
     size={size}
+    alt={alt ? alt : ""}
     src={imgFile}/>;
 };
 

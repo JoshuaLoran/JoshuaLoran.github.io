@@ -13,20 +13,24 @@ const WorkTree = ({topHeading, secondHeading, topList, secondList, linkUrl, icon
     <Box w={["100%", "100%", "100%", "40%"]} textAlign={onRight ? "left" : "right"} mt={[30, 30, 35, 80]} h="100%">
       <h2 style={style}>{topHeading || ""}{topHeading ? ":" : ""}</h2>
       <div dir={dirSide}>
-        {topList && topList.map((bullet, key) => (
-          <p key={key}><li>{bullet}</li></p>
-        ))}
+        <ul>
+          {topList && topList.map((bullet, key) => (
+            <li style={{marginTop: "10px"}} key={key}>{bullet}</li>
+          ))}
+        </ul>
       </div>
       <h2 style={style}>{secondHeading || ""}{secondHeading ? ":" : ""}</h2>
       <div dir={dirSide}>
-        {secondList && secondList.map((bullet, key) => (
-          <p key={key}><li>{bullet}</li></p>
-        ))}
+        <ul>
+          {secondList && secondList.map((bullet, key) => (
+            <li style={{marginTop: "10px"}} key={key}>{bullet}</li>
+          ))}
+        </ul>
         <br/>
         {iconList}
         <br/>
       </div>
-      {linkUrl && <p><a target="_blank" rel="noopener noreferrer" href={linkUrl}>Go to Web Site →</a></p>}
+      {linkUrl && <p><b><a target="_blank" rel="noopener noreferrer" href={linkUrl}>Go to Web Site →</a></b></p>}
     </Box>
   );
 };
