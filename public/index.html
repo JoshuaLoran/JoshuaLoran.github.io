@@ -30,6 +30,45 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="text/javascript" async src="https://cdn.reamaze.com/assets/reamaze.js"></script>
+    <script type="text/javascript">
+      var _support = _support || { 'ui': {}, 'user': {} };
+      _support['account'] = 'potato';
+      _support['ui']['contactMode'] = 'default';
+      _support['ui']['enableKb'] = 'false';
+      _support['ui']['styles'] = {
+        widgetColor: 'rgb(0, 21, 36)',
+        gradient: true,
+      };
+      _support['ui']['shoutboxFacesMode'] = "custom";
+      _support['ui']['faces'] = ["https://joshualoran.github.io/static/media/ProfilePic.0ee38c16.jpeg"];
+      _support['ui']['widget'] = {
+        displayOn: 'all',
+        allowBotProcessing: false,
+        label: {
+          text: 'Let me know if you have any questions! &#128522;',
+          mode: "prompt-3",
+          delay: 15,
+          duration: 5,
+        },
+        position: 'bottom-right',
+        mobilePosition: 'bottom-right'
+      };
+      _support['custom_fields'] = {
+        'Reason you are contacting me?': {
+          pos: 1617672095047,
+          type: 'text',
+          value: '',
+          required: true,
+          placeholder: '',
+        }
+      };
+      _support['apps'] = {
+        faq: {"enabled":false},
+        recentConversations: {"header":""},
+        orders: {}
+      };
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
