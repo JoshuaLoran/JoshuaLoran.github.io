@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a7a9e06dcb4feb9b7c483723d3dd7b7",
+    "revision": "8dee091fb11600d2cdbed1d1f453ecee",
     "url": "/index.html"
   },
   {
-    "revision": "e05166b8532f33b269ca",
-    "url": "/static/css/2.04ff9426.chunk.css"
+    "revision": "414991563ad76907da80",
+    "url": "/static/css/2.486ebae0.chunk.css"
   },
   {
-    "revision": "c3aaeadbdec10ae6e154",
-    "url": "/static/css/main.3351c49d.chunk.css"
+    "revision": "b0119804c40489c66081",
+    "url": "/static/css/main.f8d3cd2c.chunk.css"
   },
   {
-    "revision": "e05166b8532f33b269ca",
-    "url": "/static/js/2.32016b72.chunk.js"
+    "revision": "414991563ad76907da80",
+    "url": "/static/js/2.ffcf652e.chunk.js"
   },
   {
-    "revision": "572bfeb62474f0cec44e259ca5a99f18",
-    "url": "/static/js/2.32016b72.chunk.js.LICENSE.txt"
+    "revision": "4ebd2e1c8aec2794a625d08d8b03eea9",
+    "url": "/static/js/2.ffcf652e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3aaeadbdec10ae6e154",
-    "url": "/static/js/main.4dc1e08b.chunk.js"
+    "revision": "b0119804c40489c66081",
+    "url": "/static/js/main.fbfc207c.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -40,6 +40,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ProfilePic.0ee38c16.jpeg"
   },
   {
+    "revision": "f69cdcb3e9ecf1bd0af8942cc0ed8893",
+    "url": "/static/media/WAMConstruction.f69cdcb3.svg"
+  },
+  {
+    "revision": "c1d2b593bb86912988357ed127599349",
+    "url": "/static/media/WAMFinder.c1d2b593.svg"
+  },
+  {
+    "revision": "ec856f2359c58b8217021d77ded33948",
+    "url": "/static/media/WAMMobile.ec856f23.png"
+  },
+  {
     "revision": "2c268ac581e325220fc78b3ee7975ab6",
     "url": "/static/media/city.2c268ac5.webp"
   },
@@ -56,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/farmfrenzy.778a580f.gif"
   },
   {
+    "revision": "df795d2c7ca68fc91d6a615b7b9455ec",
+    "url": "/static/media/godaddyLogo.df795d2c.png"
+  },
+  {
     "revision": "af01ccda82a1b2c3ff74a87dcdc66591",
     "url": "/static/media/homeControlConnectScreen.af01ccda.png"
   },
@@ -70,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "77979397f4745460053616299154b1f1",
     "url": "/static/media/iosLogin.77979397.png"
+  },
+  {
+    "revision": "32717246902c7f1050bd28b7254bb8d4",
+    "url": "/static/media/multichannel.32717246.webp"
   },
   {
     "revision": "26953762721a2b17b7119139113894a2",
@@ -90,5 +110,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ed15415422750d6a599a2a3fdf81931",
     "url": "/static/media/sylvanScreen.0ed15415.png"
+  },
+  {
+    "revision": "6457da045cfc47e175e09dd57182c4e1",
+    "url": "/static/media/websiteBuilder.6457da04.png"
   }
 ]);
