@@ -3,7 +3,6 @@ import {Layout, Avatar, Affix} from "antd";
 import ProfilePic from "../../../assets/images/ProfilePic.jpeg";
 import {SideMenu} from "./SideMenu";
 import {motion} from "framer-motion";
-import {ParticleBG} from "../../particles/ParticleBG";
 
 const {Sider} = Layout;
 
@@ -45,7 +44,6 @@ const SideBar = () => {
           </div>
         </div>
       </Affix>
-      {collapsed && <ParticleBG/>}
     </Sider>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import {HashRouter} from "react-router-dom";
-import ScrollToTop from "./components/utils/ScrollToTop";
+import ScrollToTop from "./components/utils.js";
 import {Root} from "./containers/Layout";
 import {RecoilRoot} from "recoil";
 

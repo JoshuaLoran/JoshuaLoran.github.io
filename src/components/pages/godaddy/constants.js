@@ -22,10 +22,9 @@ export const workTreeData = {
     "Designed and developed parts of our internal API for integration with Godaddy internal services",
     "Integrated Re:amaze email communications with GoDaddy ecosystem, including rebranding, message type handling, and delivery for C1's and C2's",
     "Coordinated with multiple teams to ensure deliverablity of features and integrations",
-    "Designed an internal responsive and composable library, including HOC wrappers to encapsulate shared structure/logic",
-    "Designed reusable forms (and form components), item bars, and data tables for many models",
-    "Created self-documenting code using tools such as Proptypes, JSdocs, and Storybook with best practice naming conventions.",
-
+    "Designed and implemented complex email delivery for ecommerce communications",
+    "Worked on ecommerce rearchitecture and infrastructure behind sms/voip channel",
+    "Communicated with many teams to develop engineering docs and product flows",
   ],
   secondHeading: "Libraries / Tools",
   secondList: [

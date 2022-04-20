@@ -19,3 +19,5 @@ class ScrollToTop extends Component {
 }
 
 export default withRouter(ScrollToTop);
+
+export const getWidth = () => window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;

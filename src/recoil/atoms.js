@@ -1,5 +1,5 @@
 import {atom, selector} from "recoil";
-import {getWidth} from "../components/utils/ScreenWidth";
+import {getWidth} from "../components/utils.js";
 
 export const windowSize = atom({
   key: "windowSize",

@@ -2,15 +2,16 @@ import React, {useEffect} from "react";
 import {Layout} from "antd";
 import {SideBar} from "../components/common/layout/SideBar";
 import {Routes} from "./Routes";
-import {useSetRecoilState, useRecoilValue} from "recoil";
+import {useRecoilState, useRecoilValue} from "recoil";
 import {windowSize, siteHeader} from "../recoil/atoms";
-import {getWidth} from "../components/utils/ScreenWidth";
+import {getWidth} from "../components/utils.js";
 
 const {Content, Header} = Layout;
 
 // Root container for base/root layout
 const Root = () => {
-  const setWindowWidth = useSetRecoilState(windowSize);
+  const [windowWidth, setWindowWidth] = useRecoilState(windowSize);
+  const header = useRecoilValue(siteHeader);
 
   // update recoil state
   useEffect(() => {
@@ -19,14 +20,14 @@ const Root = () => {
     return () => {
       window.removeEventListener("resize", resizeListener);
     };
-  });
+  }, [windowWidth]);
 
   return (
     <Layout style={{minHeight: "100vh"}}>
       <SideBar/>
       <Layout className="site-layout">
         <Header className="site-layout-background">
-          <h1>{useRecoilValue(siteHeader)}</h1>
+          <h1>{header}</h1>
         </Header>
         <Content
           className="site-layout-background"
