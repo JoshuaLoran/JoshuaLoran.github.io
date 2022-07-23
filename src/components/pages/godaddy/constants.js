@@ -4,10 +4,15 @@ import css3 from "@iconify/icons-logos/css-3";
 import postgresqlIcon from "@iconify/icons-logos/postgresql";
 import dockerIcon from "@iconify/icons-logos/docker-icon";
 import gitlabIcon from "@iconify/icons-logos/gitlab";
-import trelloIcon from "@iconify/icons-logos/trello";
+import confluenceIcon from "@iconify/icons-logos/confluence";
 import nodejsIcon from "@iconify/icons-logos/nodejs";
 import rubyIcon from "@iconify/icons-logos/ruby";
 import railsIcon from "@iconify/icons-logos/rails";
+import jiraIcon from "@iconify/icons-logos/jira";
+import figmaIcon from "@iconify/icons-logos/figma";
+import awsIcon from "@iconify/icons-logos/aws";
+import sentryIcon from "@iconify/icons-logos/sentry";
+import elasticIcon from "@iconify/icons-vscode-icons/file-type-elastic";
 
 export const subHeader = "Empower Small Businesses and Solopreneurs";
 
@@ -19,12 +24,14 @@ export const titleDescription = "Godaddy aquired Re:amaze in 2021 in order to fu
 export const workTreeData = {
   topHeading: "Technical Responsibilties",
   topList: [
-    "Designed and developed parts of our internal API for integration with Godaddy internal services",
+    "Worked in an Agile, SPAQ driven environment, with tools like Jira, Confluence",
+    "Coordinated cross-team to designed and develop parts of our internal API for integration with Godaddy internal services",
     "Integrated Re:amaze email communications with GoDaddy ecosystem, including rebranding, message type handling, and delivery for C1's and C2's",
     "Coordinated with multiple teams to ensure deliverablity of features and integrations",
     "Designed and implemented complex email delivery for ecommerce communications",
     "Worked on ecommerce rearchitecture and infrastructure behind sms/voip channel",
     "Communicated with many teams to develop engineering docs and product flows",
+    "Mentored new Junior devs through internal program"
   ],
   secondHeading: "Libraries / Tools",
   secondList: [
@@ -83,7 +90,27 @@ export const reamazeIcons = [
     link: "https://gitlab.com/JoshuaLoran"
   },
   {
-    icon: trelloIcon,
-    link: "https://trello.com/"
+    icon: jiraIcon,
+    link: "https://www.atlassian.com/software/jira"
+  },
+  {
+    icon: confluenceIcon,
+    link: "https://www.atlassian.com/software/confluence"
+  },
+  {
+    icon: figmaIcon,
+    link: "https://www.figma.com/"
+  },
+  {
+    icon: awsIcon,
+    link: "https://aws.amazon.com/"
+  },
+  {
+    icon: sentryIcon,
+    link: "https://sentry.io/welcome/"
+  },
+  {
+    icon: elasticIcon,
+    link: "https://www.elastic.co/"
   },
 ];
