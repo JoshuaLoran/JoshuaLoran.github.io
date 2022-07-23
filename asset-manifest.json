@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23e4dc4c.css",
+    "main.js": "/static/js/main.7a0b6bc0.js",
+    "static/media/sylvanScreen.png": "/static/media/sylvanScreen.a40c2d507e6886dcf213.png",
+    "static/media/farmfrenzy.gif": "/static/media/farmfrenzy.8372ae7e9f64604b7485.gif",
+    "static/media/socialWildernessLeoScreen.png": "/static/media/socialWildernessLeoScreen.aba07446a9799c8b8f90.png",
+    "static/media/socialWildernessScreen.png": "/static/media/socialWildernessScreen.b2c2f405f756c76a17e2.png",
+    "static/media/socialWildernessDestinationScreen.png": "/static/media/socialWildernessDestinationScreen.53604f1bc9d09409c7f5.png",
+    "static/media/iosLogin.png": "/static/media/iosLogin.7b615a16e361c062ef34.png",
+    "static/media/deskSetup.jpg": "/static/media/deskSetup.334a2cb9b764d5470e5e.jpg",
+    "static/media/homeControlConnectScreen.png": "/static/media/homeControlConnectScreen.bbbe57b1c62bc8874008.png",
+    "static/media/ConmitScreen.png": "/static/media/ConmitScreen.de1728cd27ca970f585d.png",
+    "static/media/homeControlHomeScreen.png": "/static/media/homeControlHomeScreen.ad8123b5043e8d762724.png",
+    "static/media/JoshuaLoranResume.pdf": "/static/media/JoshuaLoranResume.471e9ad25e59d2e0a99a.pdf",
+    "static/media/godaddyLogo.png": "/static/media/godaddyLogo.4abb909684b28777c290.png",
+    "static/media/WAMMobile.png": "/static/media/WAMMobile.6a94acd284608814f42a.png",
+    "static/media/homeControlScreen.png": "/static/media/homeControlScreen.790b00c8deb54bba2377.png",
+    "static/media/conmittoLogo.png": "/static/media/conmittoLogo.9bb5758a721e5853570f.png",
+    "static/media/WAMConstruction.svg": "/static/media/WAMConstruction.5aa353e9c20ad90ad0803a428a004c35.svg",
+    "static/media/WAMFinder.svg": "/static/media/WAMFinder.d263aaddc9a3087f61f439b751ba2769.svg",
+    "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.cb2875c79af743a48600.jpeg",
+    "static/media/multichannel.webp": "/static/media/multichannel.841c67591e4add580bbf.webp",
+    "static/media/city.webp": "/static/media/city.1d3a6cd6618a4f4c420b.webp",
+    "static/media/sylvan.png": "/static/media/sylvan.4e83aca8ea946c990153.png",
+    "static/media/websiteBuilder.png": "/static/media/websiteBuilder.e43685a51ebdf010aba3.png",
+    "index.html": "/index.html",
+    "main.23e4dc4c.css.map": "/static/css/main.23e4dc4c.css.map",
+    "main.7a0b6bc0.js.map": "/static/js/main.7a0b6bc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23e4dc4c.css",
+    "static/js/main.7a0b6bc0.js"
+  ]
+}
